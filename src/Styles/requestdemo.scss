@@ -1,0 +1,41 @@
+.requestbox{
+
+    padding:20px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-radius: 50px;
+    margin-right: 10px;
+
+}
+
+.requestsubmitdiv{
+
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.submitbtn{
+    
+    width:150px;
+    height:40px;
+    background-color:white;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    color:#f1356d;
+    margin-left: 100px;
+    margin-bottom: 1px;
+    margin-top: 15px;
+
+    &:hover{
+        background-color:#f1356d;
+            color:white;
+    }
+}
+
+

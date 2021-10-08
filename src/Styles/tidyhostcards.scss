@@ -1,0 +1,49 @@
+
+
+
+.tidyhostcard{
+    display: inline-block;
+    border-style: solid;
+    border-color: #C1C1C1;
+    border-radius: 10px;
+    
+    
+    
+    margin-left: 10px;
+    max-width: 300px;
+    max-height: 500px;
+
+    &:hover{
+        border-color: black;
+        width:350px;
+        height: 350px;
+        
+    }
+}
+
+.search-icon{
+    
+    max-width: 50px;
+    max-height: 50px;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.signupbutton{
+    //visibility: hidden;
+    width:150px;
+    height:40px;
+    background-color:#f1356d;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    color:#fff;
+    margin-left: 75px;
+    margin-bottom: 10px;
+    &:hover{
+        visibility: visible;
+    }
+}

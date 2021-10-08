@@ -1,0 +1,25 @@
+.blogbox{
+    padding:20px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-radius: 50px;
+    margin-right: 10px;
+
+    &:hover{
+        box-shadow: 10px 10px 10px gray;
+        
+        border-style: hidden;
+
+        &.blogbox .imagebutton{
+            visibility:visible;
+        }
+
+    }
+}
+
+.imagebutton{
+    visibility:hidden;
+    background-color: #f1356d;
+    color: #fff;
+    font-size: 25px;
+}

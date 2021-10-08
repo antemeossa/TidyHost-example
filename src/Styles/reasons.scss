@@ -1,0 +1,41 @@
+
+.reasonsbottom{
+
+    align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top:50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.inside{
+
+    display: flex;
+    flex-direction: row;
+
+    &.h1{
+        color:"#003E6B"
+    }
+
+
+
+    
+    
+}
+
+.container {
+    height:200px;
+    padding:10px;
+
+    &:hover{
+        border-top-left-radius: 10px !important;
+        border-bottom-left-radius: 10px !important;
+        border-top-right-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;
+        background-color: #f1356d;
+        &.container h1{
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.plancards{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+    max-width: 420px;
+    max-height: 320px;
+    width: 400px;
+    height: 310px;
+    background-color: white;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    padding: 20px;
+    margin-left:20px;
+    margin-bottom: 20px;
+
+    &:hover{
+        background-color: #004AB4;
+        width:420px;
+        height:320px;
+        color: white;
+        border-color: #004AB4;
+        &.plancards h1{
+            color:white;
+        }
+
+        &.plancards span{
+            color:white;
+        }
+
+        .planbutton{
+            background-color:#f1356d;
+            color:white;
+        }
+    }
+}
+
+.plancards h1{
+    color: #004A95;
+    font-size:25px;
+    
+}
+
+.checkedimg{
+    height:30px;
+    width:30px;
+    margin-left:20px;
+    margin-right:5px;
+    max-width: 30px;
+    max-height:30px;
+    vertical-align: middle;
+}
+
+.uncheckedimg{
+    height:30px;
+    width:30px;
+    margin-left:20px;
+    margin-right:5px;
+    max-width: 30px;
+    max-height:30px;
+    vertical-align: middle;
+}
+
+
+.elements{
+    margin-top:100px;
+    margin-bottom:2px;
+  }
+
+  .topPart{
+    margin-left:20px;
+      margin-bottom: 15px;
+  }
+
+
+  .planbutton{
+    //visibility: hidden;
+    width:150px;
+    height:40px;
+    background-color:white;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    color:#f1356d;
+    margin-left: 100px;
+    margin-bottom: 1px;
+    margin-top: 15px;
+    &:hover{
+        visibility: visible;
+    }
+
+}

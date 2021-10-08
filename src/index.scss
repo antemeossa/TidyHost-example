@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+  font-weight: 900;
+  text-decoration-line: underline;
+
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f1356d;
+}
+
+.opening{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction:row;
+}
+
+.mp-plancards{
+  margin-top:25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  //height: 100hx;
+  
+}
+.brandbar{
+  margin-top: 100px;
+  //height:100hx;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  
+}
+
+.whytidy{
+  margin-top: 100px;
+  height:100hx;
+  align-items: left;
+  margin-left: 400px;
+  margin-bottom: 25px;
+  max-height: 400px;
+  
+  
+}
+
+.whytidybelow{
+  
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.divider1{
+  margin-top:25px;
+  height:100px;
+  background-color: #f1356d;
+}
+
+.reasons{
+  
+    margin-top: 25px;
+    height:100hx;
+    align-items: left;
+    margin-left: 400px;
+    margin-bottom: 0px;
+    max-height: 400px;
+    
+    
+  
+}
+
+.reviews{
+  margin-top: 25px;
+    height:100hx;
+    align-items: left;
+    margin-left: 400px;
+    margin-bottom: 25px;
+    max-height: 400px;
+
+}
+
+.review-cards{
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.numberstats-top{
+  margin-top: 150px;
+    height:100hx;
+    align-items: left;
+    margin-left: 400px;
+    margin-bottom: 25px;
+    max-height: 400px;
+}
+
+.numberstats{
+  
+  padding: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.blog{
+  margin-top: 80px;
+  height:100hx;
+  align-items: left;
+  margin-left: 400px;
+  margin-bottom: 25px;
+  max-height: 400px;
+
+
+
+}
+
+.blogcards{
+
+  
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.requestdemopart{
+  
+  padding:20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+  
+}
